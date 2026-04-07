@@ -1,20 +1,16 @@
-# Achiev3r 🎯
-
+# Achiev3r 
+**NTU x Base Web 3 Hackathon - Finalist**
 **Track habits, set goals, achieve together.**
 
 Achiev3r is a comprehensive habit tracking and goal achievement app built on Base with MiniKit integration. It combines daily habit tracking, goal setting with optional staking, community engagement, and blockchain-based achievements.
 
-## ✨ Features
+## Features
 
-### 🏠 Landing / Home Screen
-- App logo and branding with "Achiev3r" identity
-- Quick access to main features
-- Conditional authentication (Farcaster MiniKit / Wallet connection)
-- Feature highlights and navigation
+### Landing / Home Screen
 
-### 📊 Personal Tracking Dashboard
+### Personal Tracking Dashboard
 - **Daily Log Section:**
-  - Food intake tracking (Coffee, Tea, Meat, Veggies)
+  - Food intake tracking 
   - Exercise duration and type
   - Sleep hours
   - Energy level slider (1-10)
@@ -23,7 +19,7 @@ Achiev3r is a comprehensive habit tracking and goal achievement app built on Bas
   - Food categories per week breakdown
 - **Save & Track:** On-chain logging capabilities
 
-### 🎯 Goal Setting Flow
+### Goal Setting Flow
 - **Step 1: Define Goal**
   - Category selection (Fitness, Study, Sleep, Wellness, Nutrition, Productivity)
   - Description and timeline
@@ -37,27 +33,27 @@ Achiev3r is a comprehensive habit tracking and goal achievement app built on Bas
   - Goal summary review
   - Community publication
 
-### 🌍 Community Feed
+### Community Feed
 - Shared goals showcase
 - User avatars and basenames
 - Progress bars and status indicators
 - Support and participation features
 - Filter by status (All, Ongoing, Achieved, Failed)
 
-### 📈 Goal Progress & Verification
+### Goal Progress & Verification
 - Timeline view with milestones
 - Progress check-ins and evidence submission
 - On-chain progress updates
 - Community feed integration
 
-### 🏆 Achievement Screen
+### Achievement Screen
 - Trophy and badge visuals
 - Prize claiming (stake + profit withdrawal)
 - NFT badge minting via OnchainKit
 - Farcaster social sharing via MiniKit
 - Achievement statistics and motivation
 
-## 🏗️ Architecture
+## Architecture
 
 ### Tech Stack
 - **Frontend:** Next.js 15, React 18, TypeScript
@@ -90,7 +86,7 @@ app/
 └── providers.tsx              # MiniKit provider setup
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Node.js 18+ 
@@ -156,34 +152,3 @@ The app is configured to work on Base network. For production, ensure you have t
 - Mock data included for demonstration
 - TODO comments indicate blockchain integration points
 
-## 🔮 Future Enhancements
-
-- **Smart Contract Integration:** On-chain goal verification
-- **DeFi Features:** Yield farming on staked amounts
-- **Social Features:** Goal challenges and competitions
-- **Analytics:** Advanced progress tracking and insights
-- **Mobile App:** React Native version
-- **Multi-chain Support:** Ethereum, Polygon, and more
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- Built on [Base](https://base.org/) network
-- Powered by [MiniKit](https://minikit.com/) for Farcaster integration
-- UI components from [OnchainKit](https://onchainkit.com/)
-- Built with [Next.js](https://nextjs.org/) and [Tailwind CSS](https://tailwindcss.com/)
-
----
-
-**Achiev3r** - Where goals become achievements, and habits become success stories. 🚀
