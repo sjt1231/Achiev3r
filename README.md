@@ -1,5 +1,6 @@
 # Achiev3r 
 **NTU x Base Web 3 Hackathon - Finalist**
+
 **Track habits, set goals, achieve together.**
 
 Achiev3r is a comprehensive habit tracking and goal achievement app built on Base with MiniKit integration. It combines daily habit tracking, goal setting with optional staking, community engagement, and blockchain-based achievements.
